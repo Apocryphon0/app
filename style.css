@@ -41,12 +41,18 @@
 
 
 .fa-instagram {
-    background: #f09433;
-    color: white;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: #fff;
 }
 
 .fa-youtube {
     background: #cc181e;
     color: white;
 }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
 
