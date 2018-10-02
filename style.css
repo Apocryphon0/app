@@ -25,9 +25,10 @@
 }
 
 .fa {
-    padding: 20px;
+    padding-top: 13px;
     font-size: 30px;
     width: 55px;
+    height: 55px;
     text-align: center;
     text-decoration: none;
     border-radius: 100%;
@@ -35,6 +36,12 @@
 
 .fa-facebook {
     background: #3B5998;
+    color: white;
+}
+
+
+.fa-instagram {
+    background: #f09433;
     color: white;
 }
 
