@@ -3,8 +3,8 @@ function barvičky(){
 }
 
 function barva(){
-    var o = Math.round, r = Math.random, x = 255;
-    return 'rgba(' + o(r()*x) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + r().toFixed(1) + ')';
+    var r = Math.round, rr = Math.random, x = 255;
+    return 'rgba(' + r(rr()*x) + ',' + r(rr()*x) + ',' + r(rr()*x) + ',' + rr().toFixed(1) + ')';
 }
 
 setInterval(barvičky, 5)
