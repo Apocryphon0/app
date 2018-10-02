@@ -1,5 +1,10 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
+function barvičky(){
+  $("#čára").css("background", barva);
+}
 
-// prints "hi" in the browser's dev tools console
-console.log('hi');
+function barva(){
+    var o = Math.round, r = Math.random, x = 255;
+    return 'rgba(' + o(r()*x) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + r().toFixed(1) + ')';
+}
+
+setInterval(barvičky, 5)
