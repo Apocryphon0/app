@@ -136,17 +136,17 @@
 <!--Section: Contact v.1-->
   
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU"></script>  
-<script>
-  // Regular map
+  <script>
+// Regular map
 function regular_map() {
-var var_location = new google.maps.LatLng(49.450576, 17.466038);
+var var_location = new google.maps.LatLng(40.725118, -73.997699);
 
 var var_mapoptions = {
 center: var_location,
 zoom: 14
 };
 
-var var_map = new google.maps.Map(document.getElementById("map-container"),
+var var_map = new google.maps.Map(document.getElementById("map-container-7"),
 var_mapoptions);
 
 var var_marker = new google.maps.Marker({
@@ -156,9 +156,8 @@ title: "New York"
 });
 }
 
-// Initialize maps
 google.maps.event.addDomListener(window, 'load', regular_map);
-</script>
+  </script>
 
   
   
