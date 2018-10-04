@@ -57,8 +57,8 @@
 
 
 .back {
-    height: 100%;
-    background: linear-gradient(0deg, #ffffff 50%, #00FFFF 50%);
+    height: 90%;
+    background: linear-gradient(0deg, #ffffff 70%, #00FFFF 30%);
 }
 
 .pp {
