@@ -68,3 +68,13 @@
 bb {
     vertical-align: text-top;
 }
+
+section {
+  display: flex;
+}
+
+section>div {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
