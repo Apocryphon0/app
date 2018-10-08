@@ -19,8 +19,9 @@
 
 <body style="background-color: #81d4fa;background-image: linear-gradient(90deg, #01579b 0%, #81d4fa 100%)">
 
+
     <!-- Horní lišta -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:white">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color:white">
         <a class="navbar-brand" href="index.html">Domů</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -32,45 +33,54 @@
             </ul>
         </div>
     </nav>
-  
-  
-  <center><p style="padding-top:20%;color:white;font-size:50px;">
-    <a href="deluxe.html" style="color:white">DELUXE</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="standard.html" style="color:white">STANDARD</a>
-    </p></center>
 
-<!-- LIŠTA DOLE 
-  <script>
-function pictureChange()
-{
-document.getElementById("theImage").src="http://31.media.tumblr.com/fca646cd8fe87906e605ad7e8d039903/tumblr_mmoz4fWT6U1soh1p8o1_500.png";
-}
-</script>
-  <center><img id="theImage" src="https://cdn.glitch.com/b511ed4c-fabf-49df-b72a-741fff06f5ca%2FIMIT%20vyber-5.jpg?1538498717692" style="width:10%;height:10%;padding-top:18%"></center>
-  <div style="padding-top:2%">
-    
 
-  <center><p><input type="button" id="theButton" value="click me!" onclick="pictureChange()"></p></center>
-    
-    </div>
--->
-  
-  
-  
-  
+
+
     <!-- LIŠTA DOLE -->
-    <div style="padding-top:42.1%">
+    <div style="padding-top:7.4%">
 
         <footer class="page-footer fixed-bottom font-small white pt-2">
 
           <div class="container">
             <div class="row">
               <div class="col spodek text-center" style="padding-top:25px"><h5 class="text-uppercase font-weight-bold">contact</h5><p>filip.dvorak13@gmail.com</p></div>
-              <div class="col"><img src="https://cdn.glitch.com/b511ed4c-fabf-49df-b72a-741fff06f5ca%2Ffghfghf.jpg?1538487766651" class="img" alt="" style="width:400px;height:125px"></div>
+              <div class="col"><img src="https://cdn.glitch.com/b511ed4c-fabf-49df-b72a-741fff06f5ca%2Ffghfghf.jpg?1538487766651" class="img" alt="" style="width:400px;height:125px" data-toggle="modal" data-target="#basicExampleModal"></div>
               <div class="col spodek text-center" style="padding-top:25px"><h5 class="text-uppercase font-weight-bold">sponsor</h5><p>Construsoft s.r.o.</p></div>
             </div>
           </div>
 
         </footer>
+      
+      <!-- Modal -->
+<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Evropská Unie</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        •	Název projektu: Pořízení technologií do společnosti VAPALUG IN s.r.o.<br>
+        •	Registrační číslo projektu: CZ.01.2.06/0.0/0.0/15_038/0006805<br>
+        •	Popis projektu: cíle a výsledky projektu:<br><br>
+        Projekt je realizován v rámci Operačního programu Podnikání a inovace pro konkurenceschopnost.<br>
+        Předmětem předkládaného projektu je pořízení strojního vybavení do výroby společnosti VAPALUG IN s.r.o.<br>
+        Nákupem poloautomatické výrobní linky na dřevěné obklady a teplovzdušné sušičky dojde k zefektivnění<br>
+        výroby dřevěných obkladových panelů určených na stěny. Hlavním cílem projektu je zvýšení konkurenceschopnosti podniku.<br>
+        Realizace projektu je stanovena od 1. 9. 2016 do 31. 12. 2017.<br><br> 
+        Projekt je spolufinancován Evropskou unií.
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+      
 
     </div>
 
@@ -79,6 +89,8 @@ document.getElementById("theImage").src="http://31.media.tumblr.com/fca646cd8fe8
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.10/js/mdb.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLyrQpJfGdzgeGpVDaAbQ_J-utQUqDnzk"></script>
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyCLyrQpJfGdzgeGpVDaAbQ_J-utQUqDnzk"></script>
 </body>
 
 </html>
