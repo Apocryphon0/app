@@ -33,15 +33,22 @@
         </div>
     </nav>
   
+  
+<script>
+function pictureChange()
+{
+document.getElementById("theImage").src="https://cdn.glitch.com/6dc68b9b-62ee-49bb-904f-9bc85ead27a3%2Fhn%C4%9Bd%C3%A1-2.jpg?1539113123667";
+}
+</script>
 
 <div style="padding-top:2%;padding-left:42.7%" class="row">
-<img src="https://cdn.glitch.com/6dc68b9b-62ee-49bb-904f-9bc85ead27a3%2Fhn%C4%9Bd%C3%A1-2.jpg?1539091308847" style="width:300px;height:240px">
+<img id="theImage" src="https://cdn.glitch.com/6dc68b9b-62ee-49bb-904f-9bc85ead27a3%2Fhn%C4%9Bd%C3%A1-2.jpg?1539091308847" style="width:300px;height:240px">
 </div>
-  
-    <!-- Split button -->
-  <center>
-<div class="btn-group" style="padding-top:1%">
-  <button type="button" class="btn btn-danger">Vyberte barvu</button>
+
+<!-- Split button -->
+<center>
+ <div class="btn-group" style="padding-top:1%">
+  <button type="button" class="btn btn-danger" onclick="pictureChange()">Vyberte barvu</button>
   <button type="button" class="btn btn-danger dropdown-toggle px-3" data-toggle="dropdown" aria-haspopup="true"
     aria-expanded="false">
     <span class="sr-only">Toggle Dropdown</span>
@@ -56,8 +63,9 @@
     <a class="dropdown-item" href="#">Teak</a>
     <a class="dropdown-item" href="#">Zelená</a>
   </div>
-</div>
-    </center>
+ </div>
+</center>
+  
 
 <center>
  <div style="padding-top:2%">
