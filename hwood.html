@@ -48,8 +48,8 @@ document.getElementById("theImage").src="https://cdn.glitch.com/6dc68b9b-62ee-49
 <!-- Split button -->
 <center>
  <div class="btn-group" style="padding-top:1%">
-  <button type="button" class="btn btn-danger" onclick="pictureChange()">Vyberte barvu</button>
-  <button type="button" class="btn btn-danger dropdown-toggle px-3" data-toggle="dropdown" aria-haspopup="true"
+  <button type="button" class="btn btn-danger" id="theButton" onclick="pictureChange()">Vyberte barvu</button>
+  <button type="button" class="btn btn-danger dropdown-toggle px-3" data-toggle="dropdown" aria-haspopup="true" onclick="pictureChange()"
     aria-expanded="false">
     <span class="sr-only">Toggle Dropdown</span>
   </button>
