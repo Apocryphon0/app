@@ -72,9 +72,10 @@
 
 
 .z00m:hover {
-transform: scale(1.3); 
+transform: scale(1.03); 
 }
 
 .z00m {
 transition: transform .2s;
 }
+
