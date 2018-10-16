@@ -34,7 +34,7 @@
     </nav>
   
 <div style="padding-top:5%">
-<center><img src="https://cdn.glitch.com/6dc68b9b-62ee-49bb-904f-9bc85ead27a3%2FGlatt%20Wood%20Masiv%20P%C5%99%C3%ADrodn%C3%AD.jpg?1539097645231" class="rounded" style="width:600px;height:240px"></center>
+<center><img src="https://cdn.glitch.com/6dc68b9b-62ee-49bb-904f-9bc85ead27a3%2FGlatt%20Wood%20Masiv%20P%C5%99%C3%ADrodn%C3%AD.jpg?1539097645231" class="rounded" id="thaeImage" style="width:600px;height:240px"></center>
 </div>
 <center>
  <div style="padding-top:2%">
@@ -44,6 +44,49 @@
    <br>
    </div>
 </center>
+  
+  
+   <script>
+function pictureCh()
+{
+document.getElementById("thaeImage").src="https://cdn.glitch.com/6dc68b9b-62ee-49bb-904f-9bc85ead27a3%2FGlatt%20Wood%20Masiv%20P%C5%99%C3%ADrodn%C3%AD.jpg?1539097645231";
+}
+</script>
+  
+<script>
+function pictureCha()
+{
+document.getElementById("thaeImage").src="https://cdn.glitch.com/6dc68b9b-62ee-49bb-904f-9bc85ead27a3%2FTop%20Wood%20Termo.jpg?1539693963590";
+}
+</script>
+  
+<script>
+function pictureChaa()
+{
+document.getElementById("thaeImage").src="https://cdn.glitch.com/6dc68b9b-62ee-49bb-904f-9bc85ead27a3%2FGlatt%20Wood%20Masiv%20Mix.jpg?1539693969077";
+}
+</script>
+  
+  
+  
+  <center>
+    
+  
+   <div class="btn-group" style="padding-top:%">
+  <button type="button" class="btn btn-danger" id="taheButton">Vyberte dřevinu</button>
+  <button type="button" class="btn btn-danger dropdown-toggle px-3" data-toggle="dropdown" aria-haspopup="true" 
+    aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" onclick="pictureCh()">Přírodní</a>
+    <a class="dropdown-item" onclick="pictureCha()">Termo</a>
+    <a class="dropdown-item" onclick="pictureChaa()">Termo Mix</a>
+  </div>
+ </div>
+</center>
+  
+  <br>
    
 
 <div style="padding-left:35.5%">
