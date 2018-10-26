@@ -79,3 +79,8 @@ transform: scale(1.08);
 transition: transform .2s;
 }
 
+@media only screen and (max-width: 1080px) {
+    footer {
+        padding-top: 7.4%
+    }
+}
